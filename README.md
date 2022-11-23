@@ -1,8 +1,8 @@
-# Détection de la fraude 
+# Prédiction à partir de données bancaires
 
 Ce Github contient deux dossiers avec des projets semblables: le but est de prédire la variables dichotomique `Fraude` qui est donc notre "Target" - et prend 1 lorsqu'il y a Fraude, 0 sinon - à partir d'un ensemble d'autres variables. Pour ce faire, des modèles de Machine Learning sont utilisés. Leur performance est ensuite contrôlée avec les métriques classiquement utilisées: Précision, Rappel et F1-Score ; ce qui nous permet de choisir le modèle donnant le moins de Faux Négatifs.
 
-## M1 Data Challenge 2021 : UPEC / Sorbonne / ASSAS 
+## M1 Data Challenge 2021 : UPEC / Sorbonne / ASSAS - défaut de crédits
 
 Dans ce premier dossier, sont disponibles les codes, la présentation finale et les données du data Challenge 2021 inter-université 2021 (Assas, Sorbonne et UPEC). Ce data challenge a été construit en 3 étapes: 
 
@@ -16,15 +16,15 @@ Notre équipe est arrivée première de la compétition. J'ai uniquement partici
 
 Vous y trouverez également un `Report` du même travail effectué sur d'autres données dans le cadre de notre cours de M1 de Python.
 
-## M2 Scoring 2022
+## M2 Scoring 2022 - détection de fraudes bancaires 
 
-Dans le cadre du M2 Tide (Sorbonne), nous avons retravaillé le projet avec un dernier jeu de données `autorisations.csv`. Ce second dossier comporte donc le script, les données, la présentation et le rapport effectué plus récemment. 
+Dans le cadre du M2 Tide (Sorbonne), nous avons retravaillé le projet avec un dernier jeu de données `autorisations.csv`. Ce second dossier comporte donc le script, les données, la présentation et le rapport effectué plus récemment; avec cette fois-ci pour objectif de prédire le risque de fraudes banciares. 
 
-# Fraud Detection 
+# Forecasting from bank data
 
 This Github contains two folders with similar projects: the goal is to predict the dichotomous variable `Fraud` which is our `Target` - and takes 1 when there is Fraud, 0 otherwise - from a set of other variables. To do this, Machine Learning models are used. Their performance is then checked with the classically used metrics: Accuracy, Recall and F1-Score; this allows us to choose the model giving the least number of False Negatives.
 
-## M1 Data Challenge 2021 : UPEC / Sorbonne / ASSAS 
+## M1 Data Challenge 2021 : UPEC / Sorbonne / ASSAS - credit default
 
 In this first file, are available the codes, the final presentation and the data of the 2021 inter-university data Challenge (Assas, Sorbonne and UPEC). This data challenge was built in 3 steps: 
 
@@ -38,6 +38,6 @@ Our team came first in the competition. I only participated in the last stage as
 
 You will also find a `Report` of the same work done on other data in our M1 Python course.
 
-## M2 Scoring 2022
+## M2 Scoring 2022 - fraud detection
 
-As part of the M2 Tide (Sorbonne), we have reworked the project with a last dataset `authorizations.csv`. This second file contains the script, the data, the presentation and the report done more recently. 
+As part of the M2 Tide (Sorbonne), we have reworked the project with a last dataset `authorizations.csv`. This second file contains the script, the data, the presentation and the report done more recently; this time with the objective of predicting the risk of bank fraud. 
